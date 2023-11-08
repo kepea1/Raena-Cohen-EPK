@@ -1,10 +1,11 @@
 .section {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
   /* padding: 6rem; */
   min-height: 100vh;
+  padding: 1rem;
 }
 
 .banner {
@@ -16,23 +17,34 @@
   font-size: var(--fs-xl);
 }
 
-.music {
+/* .music {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+} */
+
+.iframe {
+  gap: 1em;
 }
+
 .single {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin: 1rem;
-  width: 100%;
-  height: auto;
-  position: relative;
+  margin-top: 1rem;
+  transition: transform 200ms ease-in-out;
+
+  /* width: 100%; */
+  /* height: auto; */
+  /* position: relative; */
   /* dont need max width and height because the 800 x 800 ratio is set in the Newsingle compnent */
   /* max-width: 1000px;
   max-height: 1000px;  */
+}
+.single:hover {
+  transition: transform 200ms ease-in-out;
+  transform: scale(1.05);
 }
 
 .card {
@@ -87,8 +99,7 @@
   .card:hover,
   .card_socials:hover {
     background: rgba(var(--card-rgb), 0.1);
-    border: 1px solid rgba(var(--card-border-rgb), 0.15);
-    /* outline: 1px solid rgba(var(--card-border-rgb), 0.15); */
+    outline: 1px solid rgba(var(--card-border-rgb), 0.15);
   }
 
   .card:hover span,
@@ -98,6 +109,7 @@
 }
 
 /* Mobile */
+/* find a better fix for the navbar responsiveness (that a break at 1000px) */
 /* @media (max-width: 767px) { */
 @media (max-width: 1000px) {
   .content {
@@ -132,7 +144,6 @@
   }
 
   .single {
-    margin: 1rem;
     max-width: 100%;
   }
   .card {

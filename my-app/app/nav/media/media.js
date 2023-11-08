@@ -48,20 +48,7 @@ export default function Media() {
             />
           </Link>
         </div>
-        <div className={styles.card_socials}>
-          <Link
-            href="https://www.boomplay.com/artists/75151099"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              src="/icons8-boomplay-50.png"
-              width={40}
-              height={40}
-              alt="boomplay logo"
-            />
-          </Link>
-        </div>
+      
         <br></br>
         <div className={styles.card_socials}>
           <Link

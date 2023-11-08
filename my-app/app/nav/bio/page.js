@@ -1,7 +1,7 @@
 import styles from "../../page.module.css";
 import Navbar from "../navbar.js";
 
-export default function About() {
+export default function Bio() {
   return (
     <>
       <div className={styles.topbar}>

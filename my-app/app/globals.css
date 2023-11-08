@@ -76,11 +76,11 @@ body {
 
 }
 
-body {
+/* body {
   display: flex;
   flex-direction: column;
   
-}
+} */
 
 a {
   color: inherit;

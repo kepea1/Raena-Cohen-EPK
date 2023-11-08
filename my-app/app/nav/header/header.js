@@ -4,12 +4,8 @@ import styles from "../../page.module.css";
 export default function Header() {
   return (
     <>
-      {/* <div className={styles.card}>
-        <Link href="/">Home</Link>
-      </div> */}
-
       <div className={styles.card}>
-        <Link href="../../nav/about">About</Link>
+        <Link href="../../nav/bio">Bio</Link>
       </div>
       <div className={styles.card}>
         <Link href="../../nav/videos">Videos</Link>
