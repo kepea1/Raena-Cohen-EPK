@@ -10,20 +10,19 @@ export default function Videos() {
       </div>
       <section className={styles.section}>
         <div className={styles.music}>
-        {/* <div className={styles.video}> */}
+          {/* <div className={styles.video}> */}
           <NewVideo
             src={"https://www.youtube.com/embed/NXeu1N26uuc"}
             title={"WEIGHS DOWN"}
             loading={"eager"}
           />
-        {/* </div> */}
-        
-          <NewVideo
+          {/* </div> */}
+
+          {/* <NewVideo
             src={"https://www.youtube.com/embed/dQ9LH4EVib8"}
             title={"See The Light"}
             loading={"lazy"}
-
-          />
+          /> */}
           
         </div>
       </section>
