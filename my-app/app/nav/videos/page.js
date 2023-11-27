@@ -18,11 +18,11 @@ export default function Videos() {
           />
           {/* </div> */}
 
-          {/* <NewVideo
+          <NewVideo
             src={"https://www.youtube.com/embed/dQ9LH4EVib8"}
             title={"See The Light"}
             loading={"lazy"}
-          /> */}
+          /> 
           
         </div>
       </section>
