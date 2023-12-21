@@ -27,21 +27,21 @@ export default function Home() {
             <NewSingle
               src={"/Sweetest Fiction RMX-1500.JPG"}
               linktree={
-                "https://soundcloud.com/ladyraeartist/lady-rae-x-c3b-sweetest-fiction-remix"
+                "https://soundcloud.com/raenacohen/lady-rae-x-c3b-sweetest-fiction-remix"
               }
               alt={"Sweetest Fiction Remix cover art"}
             />
             <NewSingle
               src={"/Sweetest Fiction cover-1500.jpg"}
               linktree={
-                "https://soundcloud.com/ladyraeartist/sweetest-fiction-oration-ep "
+                "https://soundcloud.com/raenacohen/sweetest-fiction-oration-ep "
               }
               alt={"Sweetest-Fiction-cover art"}
             />
             <NewSingle
               src={"/Freedom cover-1500.jpg"}
               linktree={
-                "https://soundcloud.com/ladyraeartist/lady-rae-ft-oration-freedom"
+                "https://soundcloud.com/raenacohen/lady-rae-ft-oration-freedom"
               }
               alt={"Freedom single art cover"}
             />

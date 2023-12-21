@@ -1,6 +1,6 @@
 import Media from "./media/media.js";
 import Header from "./header/header.js";
-import styles from "../page.module.css";
+import styles from "../../app/page.module.css";
 import Link from "next/link";
 
 export default function Navbar() {

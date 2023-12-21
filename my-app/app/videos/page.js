@@ -1,5 +1,5 @@
-import styles from "../../page.module.css";
-import Navbar from "../navbar.js";
+import styles from "../page.module.css";
+import Navbar from "../nav/navbar.js";
 import NewVideo from "@/app/components/new-video/new-video";
 
 export default function Videos() {

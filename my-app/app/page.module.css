@@ -32,9 +32,11 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-top: 1rem;
+  margin-top: 2rem;
   transition: transform 200ms ease-in-out;
-
+  /* overflow: hidden; */
+  /* width: auto; */
+  /* max-width: 800px; */
   /* width: 100%; */
   /* height: auto; */
   /* position: relative; */
@@ -42,7 +44,13 @@
   /* max-width: 1000px;
   max-height: 1000px;  */
 }
-.single:hover {
+/* .single :hover {
+  transition: transform 200ms ease-in-out;
+  transform: scale(1.05);
+ 
+} */
+
+.single img:hover {
   transition: transform 200ms ease-in-out;
   transform: scale(1.05);
 }
@@ -91,6 +99,12 @@
   justify-content: space-between;
   /* margin-right: 2rem; */
 }
+
+.nav_routes a:current  {
+  background-color: yellow;
+}
+
+
 .socials {
   display: flex;
   flex-direction: column;
