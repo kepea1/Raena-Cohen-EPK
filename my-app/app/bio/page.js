@@ -8,7 +8,8 @@ export default function Bio() {
         <Navbar />
       </div>
       <div className={styles.content}>
-        <main className={styles.text}>
+        <div className="animate__animated animate__fadeIn">
+        <main className={styles.text }>
           <p>
             Soulful dreamscapes coloured with melodies &amp; poetry is Raena
             Cohen&apos;s exciting new sound. She is currently recording her
@@ -43,6 +44,7 @@ export default function Bio() {
             soul and igniting the inspiration of the people.
           </p>
         </main>
+        </div>
       </div>
     </>
   );

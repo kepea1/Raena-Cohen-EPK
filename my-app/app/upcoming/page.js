@@ -7,10 +7,13 @@ export default function Upcoming() {
       <div className={styles.topbar}>
         <Navbar />
       </div>
+      <div className="animate__animated animate__fadeIn">
+
       <div className={styles.content}>
         <main className={styles.text}>
           <p> Upcoming releases.. </p>
         </main>
+      </div>
       </div>
     </>
   );

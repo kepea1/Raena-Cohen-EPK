@@ -7,10 +7,12 @@ export default function Contact() {
       <div className={styles.topbar}>
         <Navbar />
       </div>
-      <div className={styles.content}>
-        <main className={styles.text}>
-          <p>Contact Details..</p>
-        </main>
+      <div className="animate__animated animate__fadeIn">
+        <div className={styles.content}>
+          <main className={styles.text}>
+            <p>Contact Details..</p>
+          </main>
+        </div>
       </div>
     </>
   );
