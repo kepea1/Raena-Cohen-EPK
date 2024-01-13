@@ -1,4 +1,4 @@
-export default function sendEmail(data) {
+export default function SendEmail(data) {
   const apiEndpoint = "/api/email";
 
   // Added a note to the data object

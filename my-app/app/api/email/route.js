@@ -33,8 +33,6 @@ export async function POST(request) {
       });
     });
 
-    
-
   try {
     await sendMailPromise();
     return NextResponse.json({ message: "Email sent" });
