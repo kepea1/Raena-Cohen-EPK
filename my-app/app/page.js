@@ -6,6 +6,8 @@ import "animate.css";
 // import weighsDown from "../public/Weighs-down-cover-art-1500(upsized).jpg";
 
 export default function Home() {
+    // add an array of singles to be mapped when i have more
+
   return (
     <>
       <main className={styles.body}>

@@ -4,6 +4,7 @@ import ContactForm from "../components/contact-form/contact-form.js";
 import ContactInfo from "../components/contact-form/contact-info.js";
 
 export default function Contact() {
+  
   return (
     <>
       <div className={styles.topbar}>
