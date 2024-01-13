@@ -1,6 +1,6 @@
 import styles from "../page.module.css";
 import Navbar from "../nav/navbar.js";
-import NewVideo from "@/app/components/new-video/new-video";
+import NewVideo from "../components/new-video/new-video.js";
 
 export default function Videos() {
   return (

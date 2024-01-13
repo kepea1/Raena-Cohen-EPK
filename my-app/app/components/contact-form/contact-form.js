@@ -1,13 +1,25 @@
+"use client";
 // import Styles from "./new-single.module.css";
 import styles from "../../page.module.css";
-import Image from "next/image";
+// import Image from "next/image";
+import { FC } from "react"; //
+import { useForm } from "react-hook-form";
+import sendEmail from "../../../utils/send-email";
 
 export default function ContactForm() {
+  const { register, handleSubmit } = useForm();
+
+  function onSubmit(data) {
+    // console.log(data);
+    console.log("submitted");
+    sendEmail(data);
+  }
+
   return (
     <>
       <div>
         {/* <form onSubmit={handleSubmit(onSubmit)}> */}
-        <form className={styles.contact_form}>
+        <form className={styles.contact_form} onSubmit={handleSubmit(onSubmit)}>
           <div className={styles.form_item}>
             <label htmlFor="name" className="">
               Name
@@ -16,8 +28,7 @@ export default function ContactForm() {
               className={styles.form_input}
               type="text"
               placeholder="Raena Cohen"
-
-              // {...register("name", { required: true })}
+              {...register("name", { required: true })}
             />
           </div>
           <div className={styles.form_item}>
@@ -28,8 +39,7 @@ export default function ContactForm() {
               className={styles.form_input}
               type="email"
               placeholder="example@domain.com"
-
-              // {...register("email", { required: true })}
+              {...register("email", { required: true })}
             />
           </div>
           <div className={styles.form_item}>
@@ -38,7 +48,7 @@ export default function ContactForm() {
             </label>
             <textarea
               className={styles.form_input_textarea}
-              // {...register("message", { required: true })}
+              {...register("message", { required: true })}
               rows={4}
               placeholder="Type your message"
             ></textarea>
@@ -53,4 +63,3 @@ export default function ContactForm() {
     </>
   );
 }
-
