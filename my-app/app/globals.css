@@ -2,20 +2,19 @@
   --max-width: 1100px;
   --border-radius: 12px;
 
-
-  --font-mono:  "Courier New", "Fira Code", "JetBrains Mono",
-    "IBM Plex Mono", "Space Mono", "Roboto Mono", "Oxygen Mono",
-    "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono",
-    monospace;
+  --font-mono: "Courier New", "Fira Code", "JetBrains Mono", "IBM Plex Mono",
+    "Space Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace",
+    "Source Code Pro", "Fira Mono", "Droid Sans Mono", monospace;
 
   --font-size: 100%;
 
-  --fs-xl: clamp(3.5rem, 12vw + 1rem, 7rem);
+  --fs-xl: clamp(3.5rem, 12vw + 1rem, 6rem);
   /* --fs-xl: 7rem; */
   --fs-600: 2rem;
   --fs-500: 1.25rem;
   --fs-400: 1.125rem;
 
+  /* MQ=media query */
   --fs-MQxl: 5rem;
   --fs-MQ600: 1rem;
   --fs-500: 1.25rem;

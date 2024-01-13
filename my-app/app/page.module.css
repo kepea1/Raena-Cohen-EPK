@@ -40,7 +40,7 @@
   /* width: 100%; */
   /* height: auto; */
   /* position: relative; */
-  /* dont need max width and height because the 800 x 800 ratio is set in the Newsingle compnent */
+  /* don't need max width and height because the 800 x 800 ratio is set in the Newsingle component */
   /* max-width: 1000px;
   max-height: 1000px;  */
 }
@@ -67,16 +67,22 @@
 } */
 
 .wrapper {
-  height: 100%;
+  height: 8%;
   display: grid;
   place-content: center;
-  grid-template-columns: minmax(300px, 800px);
+  /* change video size below */
+  grid-template-columns: minmax(300px, 600px);
 }
 
 .single iframe {
   width: 100%;
   height: auto;
   aspect-ratio: 1/1;
+  align-self: center;
+}
+
+.single wrapper {
+  width: 70%;
 }
 
 .card {
@@ -100,17 +106,22 @@
   /* margin-right: 2rem; */
 }
 
-.nav_routes a:current  {
+.nav_routes a:current {
   background-color: yellow;
 }
-
 
 .socials {
   display: flex;
   flex-direction: column;
   padding: 1rem;
   height: auto;
-  align-items: center;
+  /* align-items: center; */
+}
+.socials_vertical {
+  display: flex;
+}
+.socials_horizontal {
+  display: flex;
 }
 .content {
   display: flex;
@@ -131,6 +142,93 @@
   line-height: 1.5;
   height: auto;
   padding: 3rem;
+}
+
+.form_item {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  gap: 0.5em;
+  margin: 0.5rem;
+  /* width: 20em; */
+  /* height: 3em; */
+
+  /* padding: 1rem; */
+}
+.input {
+  width: 3em;
+}
+
+.contact_form {
+  padding: 3rem;
+  display: flex;
+  height: auto;
+  width: 100%;
+  flex-direction: column;
+  font-size: var(--fs-500);
+  font-weight: 600;
+}
+
+.form_input {
+  padding: 0.5em;
+  height: 3em;
+  width: 20em;
+}
+
+.form_input_textarea {
+  padding: 0.5em;
+  height: 10em;
+  width: 20em;
+  /* resize: none; */
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+
+  /* padding: 4rem; */
+}
+
+.contact_btn {
+  /* width: 100%; */
+  /* height: 2rem; */
+  /* color: var(--white); */
+  /* transition: all 0.3s ease 0s; */
+  /* outline: none; */
+  /* font-size: var(--fs-MQ400); */
+
+  /* padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--purple-500);
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  /* text-align: center; */
+  /* cursor: pointer;
+  border: olive;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.15); */
+
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 45px;
+  margin: 0 0 2em;
+  max-width: 160px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+
+  /* hover:shadow-form rounded-md bg-purple-500 py-3 border bor px-8 text-base font-semibold text-white outline-none */
+}
+
+/* ////////////////////////////////////// */
+.contact_btn:hover,
+.contact_btn:active {
+  letter-spacing: 5px;
 }
 
 /* Enable hover only on non-touch devices */
@@ -186,6 +284,7 @@
   .single {
     max-width: 100%;
   }
+
   .card {
     height: 0vh;
     font-size: var(--fs-MQ600);
@@ -195,7 +294,12 @@
     font-size: var(--fs-MQ400);
     padding: 1em;
   }
-
+  .contact {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
   /* TO CHECK AND EDIT AS WEBSITE DEVELOPS */
   /* .text p,
   .text div {
