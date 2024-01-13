@@ -9,7 +9,7 @@ export default function Bio() {
       </div>
       <div className={styles.content}>
         <div className="animate__animated animate__fadeIn">
-        <main className={styles.text }>
+        <main className={styles.text}>
           <p>
             Soulful dreamscapes coloured with melodies &amp; poetry is Raena
             Cohen&apos;s exciting new sound. She is currently recording her

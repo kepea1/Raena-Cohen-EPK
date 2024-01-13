@@ -137,11 +137,11 @@
   padding: 1rem;
   height: auto;
   text-align: justify;
-  /* letter-spacing: 2.5px; */
   text-indent: 50px;
   line-height: 1.5;
   height: auto;
   padding: 3rem;
+  /* letter-spacing: 2.5px; */
 }
 
 .form_item {
@@ -291,7 +291,7 @@
   }
 
   .text {
-    font-size: var(--fs-MQ400);
+    font-size: var(--fs-MQ600);
     padding: 1em;
   }
   .contact {
