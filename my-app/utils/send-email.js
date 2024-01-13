@@ -1,7 +1,7 @@
 export default function sendEmail(data) {
   const apiEndpoint = "/api/email";
 
-  // Add a note to the data object
+  // Added a note to the data object
   data.note =
     "(Do not click reply button as the sender will not receive the response, To respond please copy paste the email address into a new email)";
 
