@@ -18,9 +18,9 @@ export default function Header() {
       <div className={styles.card}>
         <Link href="/videos">Videos</Link>
       </div>
-      <div className={styles.card}>
+      {/* <div className={styles.card}>
         <Link href="/upcoming">Upcoming</Link>
-      </div>
+      </div> */}
       <div className={styles.card}>
         <Link href="/contact">Contact</Link>
       </div>

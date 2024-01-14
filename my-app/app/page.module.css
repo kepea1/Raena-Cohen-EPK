@@ -1,16 +1,18 @@
 .section {
+  min-height: 100vh;
+  padding: 1rem;
   /* display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center; */
   /* padding: 6rem; */
-  min-height: 100vh;
-  padding: 1rem;
 }
 
 .banner {
   padding: 1.3em;
-  margin-left: 18vw;
+  margin-left: 10vw;
+  /* margin left when "upcoming" nav link is present  */
+  /* margin-left: 18vw; */
 }
 
 .banner > h1 {
@@ -70,8 +72,8 @@
   height: 8%;
   display: grid;
   place-content: center;
-  /* change video size below */
   grid-template-columns: minmax(300px, 600px);
+  /* change video size below */
 }
 
 .single iframe {
@@ -110,6 +112,10 @@
   background-color: yellow;
 }
 
+.nav_routes a:hover {
+font-weight: 600;}
+
+
 .socials {
   display: flex;
   flex-direction: column;
@@ -147,12 +153,11 @@
 .form_item {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   gap: 0.5em;
   margin: 0.5rem;
+  /* justify-content: space-between; */
   /* width: 20em; */
   /* height: 3em; */
-
   /* padding: 1rem; */
 }
 .input {
@@ -186,30 +191,10 @@
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-
   /* padding: 4rem; */
 }
 
 .contact_btn {
-  /* width: 100%; */
-  /* height: 2rem; */
-  /* color: var(--white); */
-  /* transition: all 0.3s ease 0s; */
-  /* outline: none; */
-  /* font-size: var(--fs-MQ400); */
-
-  /* padding: 1rem;
-  margin: 1rem;
-  border-radius: 0.5rem;
-  background-color: var(--purple-500);
-  font-weight: 500;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  /* text-align: center; */
-  /* cursor: pointer;
-  border: olive;
-  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.15); */
-
   color: black;
   cursor: pointer;
   font-size: 16px;
@@ -221,16 +206,20 @@
   text-decoration: none;
   text-transform: uppercase;
   width: 100%;
-
-  /* hover:shadow-form rounded-md bg-purple-500 py-3 border bor px-8 text-base font-semibold text-white outline-none */
 }
 
-/* ////////////////////////////////////// */
 .contact_btn:hover,
 .contact_btn:active {
-  letter-spacing: 5px;
+  letter-spacing: 1px;
+  font-weight: 700;
 }
 
+.contact_form_feedback {
+  text-align: center;
+  font-size: var(--fs-500);
+  padding: 1rem;
+  margin-top: 1rem;
+}
 /* Enable hover only on non-touch devices */
 
 @media (hover: hover) and (pointer: fine) {

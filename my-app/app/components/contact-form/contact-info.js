@@ -9,8 +9,8 @@ export default function ContactInfo() {
             <h1>Contact Info</h1>
             <p>
               {" "}
-              <b>Management:</b> mgmt@raenacohen.com
-              <a href="mailto:" className={styles.link}></a>
+              <b>Management:</b>
+              <a href="mailto:" className={styles.link}>mgmt@raenacohen.com</a>
             </p>
             <p>
               <b> PR Enquires:</b>
