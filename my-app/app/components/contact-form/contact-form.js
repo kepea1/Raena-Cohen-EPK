@@ -62,6 +62,19 @@ export default function ContactForm() {
               placeholder="Type your message"
             ></textarea>
           </div>
+          <div className={`${styles.form_input_checkbox} ${styles.form_input}`}>
+            <input
+              type="checkbox"
+              id="newsletter-sign-up"
+              name="form-name"
+              value="contact"
+            />
+            <label htmlFor="newsletter-sign-up">
+              {" "}
+              Sign up to the Newsletter
+            </label>
+          </div>
+
           <div className={styles.form_item}>
             <button className={styles.contact_btn}>Submit</button>
           </div>

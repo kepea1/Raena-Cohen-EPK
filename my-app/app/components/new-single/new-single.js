@@ -14,7 +14,7 @@ export default function NewSingle({ src, linktree, alt, priority }) {
             alt={alt}
             layout="responsive"
             priority={priority}
-          
+    
           />
         </a>
       </div>

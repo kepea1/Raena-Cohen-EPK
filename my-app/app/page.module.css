@@ -113,8 +113,8 @@
 }
 
 .nav_routes a:hover {
-font-weight: 600;}
-
+  font-weight: 600;
+}
 
 .socials {
   display: flex;
@@ -219,6 +219,16 @@ font-weight: 600;}
   font-size: var(--fs-500);
   padding: 1rem;
   margin-top: 1rem;
+}
+
+.form_input_checkbox {
+  display: flex;
+  font-size: var(--fs-200);
+  margin: 1em;
+}
+
+.form_input_checkbox >* {
+  padding: 0.5em;
 }
 /* Enable hover only on non-touch devices */
 

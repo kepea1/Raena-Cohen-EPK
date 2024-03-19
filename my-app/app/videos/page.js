@@ -12,9 +12,14 @@ export default function Videos() {
         <div className={styles.music}>
           {/* <div className={styles.video}> */}
           <NewVideo
+            src={"https://youtube.com/embed/qz8Eaf0VjM8"}
+            title={"Higher Planes"}
+            loading={"eager"}
+          />
+          <NewVideo
             src={"https://www.youtube.com/embed/NXeu1N26uuc"}
             title={"WEIGHS DOWN"}
-            loading={"eager"}
+            loading={"lazy"}
           />
           {/* </div> */}
 
@@ -22,8 +27,7 @@ export default function Videos() {
             src={"https://www.youtube.com/embed/dQ9LH4EVib8"}
             title={"See The Light"}
             loading={"lazy"}
-          /> 
-          
+          />
         </div>
       </section>
 
