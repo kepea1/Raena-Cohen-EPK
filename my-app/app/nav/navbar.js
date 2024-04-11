@@ -20,10 +20,11 @@ export default function Navbar() {
               alt="Raena Cohen logo"
             /> */}
             <Image
-              src="/BLUE_RAENA_HERO_2LINES_1920x800_WHITE2.png"
+              src="/signal-2024-03-19-205231.jpeg"
               width={800}
               height={300}
               alt="Raena Cohen logo"
+              layout="responsive"
             />
             {/* <Image
               src="/BLUE_RAENA_HERO_1920x800_WHITE2.png"
