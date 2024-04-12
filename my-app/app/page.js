@@ -6,7 +6,7 @@ import "animate.css";
 // import weighsDown from "../public/Weighs-down-cover-art-1500(upsized).jpg";
 
 export default function Home() {
-    // add an array of singles to be mapped when i have more
+  // add an array of singles to be mapped when i have more
 
   return (
     <>
@@ -17,17 +17,17 @@ export default function Home() {
           <div className="animate__animated animate__fadeIn">
             <div className={styles.music}>
               {/* THIS PHOTO IS SET TO LOAD FIRST AS A PIORITY AS ITS ABOVE THE FOLD */}
-              <NewSingle
-                src={"/Weighs-down-cover-art-1500(upsized).jpg"}
-                linktree={"https://tr.ee/IZ_r-Ckjd8"}
-                alt={"Weighs Down cover art"}
-                priority
-              />
               {/* ///////////// */}
               <NewSingle
                 src={"/See the Light cover art-1500.jpg"}
                 linktree={"https://tr.ee/EIYp7t9K3t"}
                 alt={"See The Light cover art"}
+              />
+              <NewSingle
+                src={"/Weighs-down-cover-art-1500(upsized).jpg"}
+                linktree={"https://tr.ee/IZ_r-Ckjd8"}
+                alt={"Weighs Down cover art"}
+                priority
               />
               <NewSingle
                 src={"/Sweetest Fiction RMX-1500.JPG"}

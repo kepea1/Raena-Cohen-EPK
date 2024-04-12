@@ -310,14 +310,14 @@
     }
   } */
 
-  @media (min-width: 640px) {
-    /* .hero_image {
-      max-width: 100%;
-    }
-    
-    .hero_wrapper {
-      width: 150%;
-    } */
+}
+@media (min-width: 768px) {
+  .hero_image {
+    max-width: 20%;
+  }
+  
+  .hero_wrapper {
+    width: 20%;
   }
 }
 @media (min-width: 1024px) {
