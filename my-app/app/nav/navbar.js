@@ -22,8 +22,8 @@ export default function Navbar() {
             <div className={styles.hero_image}>
               <div className={styles.hero_wrapper}>
                 <Image
-                  src="/signal-2024-03-19-205231.jpeg"
-                  width={1920}
+                  src="/BLUE_RAENA_HERO_2LINES_1920x800_WHITE2_CROPPESD.png"
+                  width={900}
                   height={800}
                   alt="Raena Cohen logo"
                   layout="responsive"
