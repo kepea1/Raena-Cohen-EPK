@@ -19,13 +19,18 @@ export default function Navbar() {
               height={200}
               alt="Raena Cohen logo"
             /> */}
-            <Image
-              src="/signal-2024-03-19-205231.jpeg"
-              width={800}
-              height={300}
-              alt="Raena Cohen logo"
-              layout="responsive"
-            />
+            <div className={styles.hero_image}>
+              <div className={styles.hero_wrapper}>
+                <Image
+                  src="/signal-2024-03-19-205231.jpeg"
+                  width={1920}
+                  height={800}
+                  alt="Raena Cohen logo"
+                  layout="responsive"
+                  // objectFit="cover"
+                />
+              </div>
+            </div>
             {/* <Image
               src="/BLUE_RAENA_HERO_1920x800_WHITE2.png"
               width={900}

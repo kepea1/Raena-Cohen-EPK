@@ -10,7 +10,7 @@
 
 .banner {
   padding: 1.3em;
-  margin-left: 10vw;
+  /* margin-left: 10vw; */
   /* margin left when "upcoming" nav link is present  */
   /* margin-left: 18vw; */
 }
@@ -81,10 +81,6 @@
   height: auto;
   aspect-ratio: 1/1;
   align-self: center;
-}
-
-.single wrapper {
-  width: 70%;
 }
 
 .card {
@@ -227,9 +223,14 @@
   margin: 1em;
 }
 
-.form_input_checkbox >* {
+.form_input_checkbox > * {
   padding: 0.5em;
 }
+
+.hero_image {
+  max-width: 100%;
+}
+
 /* Enable hover only on non-touch devices */
 
 @media (hover: hover) and (pointer: fine) {
@@ -299,8 +300,37 @@
     align-items: center;
     padding: 1rem;
   }
-  /* TO CHECK AND EDIT AS WEBSITE DEVELOPS */
-  /* .text p,
+  /* @media only screen and (min-width : 768px){
+    .hero_image {
+      max-width: 70%;
+    }
+
+    .hero_wrapper {
+      width: 80%;
+    }
+  } */
+
+  @media (min-width: 640px) {
+    /* .hero_image {
+      max-width: 100%;
+    }
+    
+    .hero_wrapper {
+      width: 150%;
+    } */
+  }
+}
+@media (min-width: 1024px) {
+  .hero_image {
+    max-width: 100%;
+  }
+
+  .hero_wrapper {
+    width: 150%;
+  }
+}
+/* TO CHECK AND EDIT AS WEBSITE DEVELOPS */
+/* .text p,
   .text div {
     display: flex;
     justify-content: center;
@@ -308,7 +338,7 @@
     width: 100%;
   } */
 
-  /* .text p {
+/* .text p {
     align-items: center;
     inset: 0 0 auto;
     padding: 2rem 1rem 1.4rem;
@@ -324,7 +354,7 @@
     backdrop-filter: blur(24px);
   } */
 
-  /* .text main {
+/* .text main {
     align-items: flex-end;
     pointer-events: none;
     inset: auto 0 0;
@@ -337,11 +367,17 @@
     );
     z-index: 1;
   } */
-}
 
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
     grid-template-columns: repeat(2, 50%);
+  }
+  .hero_image {
+    max-width: 100%;
+  }
+
+  .hero_wrapper {
+    width: 150%;
   }
 }
