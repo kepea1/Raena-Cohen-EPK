@@ -48,7 +48,7 @@ export default function Media() {
             />
           </Link>
         </div>
-      
+
         <br></br>
         <div className={styles.card_socials}>
           <Link
@@ -80,7 +80,7 @@ export default function Media() {
         </div>
         <div className={styles.card_socials}>
           <Link
-            href="https://www.instagram.com/ladyraeartist/"
+            href="https://www.instagram.com/Raenacohen/"
             target="_blank"
             rel="noopener noreferrer"
           >
