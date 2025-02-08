@@ -22,7 +22,7 @@ export default function Media() {
         </div>
         <div className={styles.card_socials}>
           <Link
-            href="https://soundcloud.com/ladyraeartist"
+            href="https://soundcloud.com/raenacohen"
             target="_blank"
             rel="noopener noreferrer"
           >

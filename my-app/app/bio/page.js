@@ -16,14 +16,14 @@ export default function Bio() {
               of her life, but her journey into music has not been conventional.
               Growing up around the free festival scene, Raena was freestyling
               over DNB and Jungle from a young age and started out making liquid
-              DNB records. However, Raena’s true musical passion is soul, jazz
+              DNB records. However, Raenas true musical passion is soul, jazz
               and hip-hop with influences such as Erykah Badu, Amy Winehouse,
               Souls of Mischief, Hiatus Kaiyote and Nina Simone.{" "}
             </p>
             <br></br>
             <p>
-              Raena has released two singles <b>‘See The Light’</b> and{" "}
-              <b>‘Weighs Down’</b> both well received by supporters and local
+              Raena has released two singles <span className={styles.wordHighlight}>See The Light</span> and{" "}
+              <span className={styles.wordHighlight} >Weighs Down</span> both well received by supporters and local
               radio stations. These songs are from a previous collab with
               producer Os Price and have a sultry hip-hop feel with neo-soul
               melodic vocals. Since the release of these singles, Raena has
@@ -32,10 +32,10 @@ export default function Bio() {
               collection of demos. After spending time in the vibrant up and
               coming jazz scene in Brighton, Reana was able to share her work
               with a band of jazz musicians and together they are recording this
-              exciting new project entitled <b>‘Higher Planes’</b>. This project
+              exciting new project entitled <span className={styles.wordHighlight}>Higher Planes</span>. This project
               is the introduction of her sound to the world and the industry.
               With infectious vocal hooks, live drums and jazz influenced
-              instrumentals,<b> ‘Higher Planes’ </b>is the revisiting of
+              instrumentals,<span className={styles.wordHighlight}> Higher Planes </span>is the revisiting of
               memories & detangling trauma, questioning current issues and
               finding solace in melodic flows. Recording with a full live band
               including improvisational live takes as well as fresh new songs

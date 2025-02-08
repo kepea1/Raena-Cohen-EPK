@@ -10,16 +10,16 @@ export default function ContactInfo() {
             <p>
               {" "}
               <b>Management:</b>
-              <a href="mailto:" className={styles.link}>mgmt@raenacohen.com</a>
+              <a href="mailto:" className={styles.link}> mgmt@raenacohen.com</a>
             </p>
-            <p>
+            {/* <p>
               <b> PR Enquires:</b>
               <a href="mailto:" className={styles.link}></a>
             </p>
             <p>
               <b>All other enquiries:</b>
               <a href="mailto:" className={styles.link}></a>
-            </p>
+            </p> */}
           </main>
         </div>
       </div>
